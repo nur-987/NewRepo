@@ -8,11 +8,17 @@ namespace ConsoleApp1
 {
     class Program
     {
+
+        public double GetFinalBill()
+        {
+            int numItems = itemList.Count(); 
+            totalPrice = numItems * price
+            return totalPrice;
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi.");
-            int i = 3;
-            Console.WriteLine(i);
+            
+            
         }
     }
 }
